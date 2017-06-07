@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Economica|El+Messiri|Federo|Rationale|Strait');
+
+* {
+  box-sizing: border-box;
+  /*background-color: rgb(55, 56, 51);*/
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #1A181D;
+}
