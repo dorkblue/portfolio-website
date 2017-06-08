@@ -1,0 +1,24 @@
+div.hero {
+  /*margin: 0 auto;*/
+}
+
+div.hero h2 {
+  margin: 0;
+  text-align: left;
+  color: #EBEAE5;
+  /*text-transform: uppercase;*/
+  font-family: 'Rationale', sans-serif;
+  font-weight: normal;
+}
+
+div.hero h2 span {
+  font-size: 4em;
+  /*font-style: italic;*/
+  font-weight: normal;
+}
+
+div.hero h2 mark {
+  font-size: 2em;
+}
+
+/**/

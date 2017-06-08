@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
+import './stars.css'
 
 // import packages
 import {BrowserRouter, Route} from 'react-router-dom'
@@ -30,9 +31,9 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-
     }
   }
+
   render () {
     let options = {
       sectionClassName: 'section',
@@ -48,7 +49,10 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className='App'>
-            <NavMain />
+          <NavMain />
+          <div id='stars'></div>
+          <div id='stars2'></div>
+          <div id='stars3'></div>
           <main>
             <div>
               <Route exact path='/' component={HomeMain} />

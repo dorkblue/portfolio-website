@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Economica|El+Messiri|Federo|Rationale|Strait');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Economica|El+Messiri|Federo|Rationale|Strait|Rajdhani');
 
 * {
   box-sizing: border-box;
   /*background-color: rgb(55, 56, 51);*/
 }
 
-.App {
-  text-align: center;
+body {
+  /*background-color: #1A181D;*/
 }
 
-body {
-  background-color: #1A181D;
+div.App {
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  text-align: center;
 }

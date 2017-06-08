@@ -12,7 +12,7 @@ const Blurb = (props) => {
       <div className='content_content'>
         <section className='section_top'>
           <div className='content_subheader'>
-            <h3>Skills Unlocked</h3>
+            <h3>skills unlocked</h3>
           </div>
           <div className='devicons-container-top'>
             <div className='devicons-container'>
@@ -34,7 +34,7 @@ const Blurb = (props) => {
 
         <section className='section_bot'>
           <div className='content_subheader'>
-            <h3>Skillpoints Pending</h3>
+            <h3>skills pending</h3>
           </div>
           <div className='devicons-container-bot'>
             <div className='devicons-container'>

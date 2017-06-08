@@ -7,9 +7,8 @@ nav#main {
   position: fixed;
   display: flex;
   z-index: 999;
-  justify-content: center;
   width: 80vw;
-  background-color: rgba(255, 255, 255, 0.5);
+  /*background-color: rgba(255, 255, 255, 0.5);*/
 }
 
 nav#main ul {
@@ -19,16 +18,18 @@ nav#main ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 nav#main li {
   align-items: center;
-  width: 150px;
+  margin-left: 20px;
 }
 
 nav#main a {
   display: inline-block;
   text-decoration: none;
-  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  color: #EBEAE5;
+  font-size: 1.5em;
 }
