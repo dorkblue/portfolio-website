@@ -36,8 +36,14 @@ const Projects = (props) => {
               >
               <h5><span id='awanlogo' />awan Database</h5>
             </section>
-            <section className='projects_excerpt_container'>
-              <p>Project 3</p>
+            <section
+              className='projects_excerpt_container'
+              id={props.onHoverProject3 ? 'project3Hover' : 'project3'}
+              onClick={() => props.switchProject('project3')}
+              onMouseEnter={() => props.hoverProject('project3')}
+              onMouseLeave={() => props.hoverLeaveProject('project3')}
+              >
+              <h5><span id='whichcraftlogo' />WHICHCRAFT</h5>
             </section>
             <section className='projects_excerpt_container'>
               <p>Project 4</p>
