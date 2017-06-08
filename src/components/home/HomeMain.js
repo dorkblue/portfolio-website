@@ -15,6 +15,10 @@ class HomeMain extends React.Component {
     super(props)
     this.state = {
       currentProject: 'all',
+      onHoverProject1: false,
+      onHoverProject2: false,
+      onHoverProject3: false,
+      onHoverProject4: false,
       currentTitlePosition: 0,
       title: [
         'FULL STACK WEB DEVELOPER',
@@ -25,6 +29,8 @@ class HomeMain extends React.Component {
       ]
     }
     this.switchProject = this.switchProject.bind(this)
+    this.hoverProject = this.hoverProject.bind(this)
+    this.hoverLeaveProject = this.hoverLeaveProject.bind(this)
     // this.seq = this.seq.bind(this)
   }
 
@@ -49,6 +55,61 @@ class HomeMain extends React.Component {
     })
   }
 
+  hoverProject (name) {
+    switch (name) {
+      case 'project1':
+        this.setState({
+          onHoverProject1: true
+        })
+      break
+      case 'project2':
+        this.setState({
+          onHoverProject2: true
+        })
+      break
+      case 'project3':
+        this.setState({
+          onHoverProject3: true
+        })
+      break
+      case 'project4':
+        this.setState({
+          onHoverProject4: true
+        })
+      break
+
+      default:
+      break
+    }
+  }
+
+  hoverLeaveProject (name) {
+    switch (name) {
+      case 'project1':
+        this.setState({
+          onHoverProject1: false
+        })
+      break
+      case 'project2':
+        this.setState({
+          onHoverProject2: false
+        })
+      break
+      case 'project3':
+        this.setState({
+          onHoverProject3: false
+        })
+      break
+      case 'project4':
+        this.setState({
+          onHoverProject4: false
+        })
+      break
+      default:
+      break
+    }
+  }
+
   render () {
     let options = {
       sectionClassName: 'section',
@@ -71,6 +132,12 @@ class HomeMain extends React.Component {
           <Projects
             currentProject={this.state.currentProject}
             switchProject={this.switchProject}
+            hoverProject={this.hoverProject}
+            hoverLeaveProject={this.hoverLeaveProject}
+            onHoverProject1={this.state.onHoverProject1}
+            onHoverProject2={this.state.onHoverProject2}
+            onHoverProject3={this.state.onHoverProject3}
+            onHoverProject4={this.state.onHoverProject4}
           />
         </Section>
         <Section className='section'>

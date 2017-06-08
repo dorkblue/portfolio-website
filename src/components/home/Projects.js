@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import './Projects.css'
 
 const Projects = (props) => {
+  console.log(props)
   switch (props.currentProject) {
     case 'all':
       return (
@@ -13,33 +14,68 @@ const Projects = (props) => {
             <div className='content_subheader'>
               <h4>recent / past&nbsp;</h4>
             </div>
+            {/* <p>Click on the projects to view details</p> */}
           </div>
           <div className='content_content projects_container'>
-              <section className='projects_excerpt_container' id='project1'>
-                  <h5 onClick={() => props.switchProject('project1')}>Momo The Wizard</h5>
-              </section>
-              <section className='projects_excerpt_container'>
-                <p>Project 2</p>
-              </section>
-              <section className='projects_excerpt_container'>
-                <p>Project 3</p>
-              </section>
-              <section className='projects_excerpt_container'>
-                <p>Project 4</p>
-              </section>
+            <section
+              className='projects_excerpt_container'
+              id={props.onHoverProject1 ? 'project1Hover' : 'project1'}
+              onClick={() => props.switchProject('project1')}
+              onMouseEnter={() => props.hoverProject('project1')}
+              onMouseLeave={() => props.hoverLeaveProject('project1')}
+              >
+              <h5>Momo The Wizard</h5>
+            </section>
+
+            <section
+              className='projects_excerpt_container'
+              id={props.onHoverProject2 ? 'project2Hover' : 'project2'}
+              onClick={() => props.switchProject('project2')}
+              onMouseEnter={() => props.hoverProject('project2')}
+              onMouseLeave={() => props.hoverLeaveProject('project2')}
+              >
+              <h5><span id='awanlogo' />awan Database</h5>
+            </section>
+            <section className='projects_excerpt_container'>
+              <p>Project 3</p>
+            </section>
+            <section className='projects_excerpt_container'>
+              <p>Project 4</p>
+            </section>
           </div>
         </div>
       )
-    break
+      break
     case 'project1':
       return (
         <h1>
           Project 1 details
         </h1>
       )
-    break
+      break
+    case 'project2':
+      return (
+        <h1>
+          Project 2 details
+        </h1>
+      )
+      break
+    case 'project3':
+      return (
+        <h1>
+          Project 3 details
+        </h1>
+      )
+      break
+    case 'project4':
+      return (
+        <h1>
+          Project 4 details
+        </h1>
+      )
+      break
     default:
-    break
+      break
   }
 }
 
