@@ -50,9 +50,37 @@ class HomeMain extends React.Component {
 
   switchProject (name) {
     console.log(name)
-    this.setState({
-      currentProject: name
-    })
+    switch (name) {
+      case 'all':
+        this.setState({
+          currentProject: name
+        })
+      break
+      case 'project1':
+        this.setState({
+          currentProject: name,
+          onHoverProject1: false
+        })
+      break
+      case 'project2':
+        this.setState({
+          currentProject: name,
+          onHoverProject2: false
+        })
+      break
+      case 'project3':
+        this.setState({
+          currentProject: name,
+          onHoverProject3: false
+        })
+      break
+      case 'project4':
+        this.setState({
+          currentProject: name,
+          onHoverProject4: false
+        })
+      break
+    }
   }
 
   hoverProject (name) {

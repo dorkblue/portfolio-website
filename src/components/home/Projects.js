@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom'
 
 import './Projects.css'
 
+import Project1 from './Project1'
+
 const Projects = (props) => {
   console.log(props)
   switch (props.currentProject) {
@@ -12,9 +14,8 @@ const Projects = (props) => {
           <div className='content_header'>
             <h2>WORKS</h2>
             <div className='content_subheader'>
-              <h4>recent / past&nbsp;</h4>
+              <h4>that I'm proud of&nbsp;</h4>
             </div>
-            {/* <p>Click on the projects to view details</p> */}
           </div>
           <div className='content_content projects_container'>
             <section
@@ -26,7 +27,6 @@ const Projects = (props) => {
               >
               <h5>Momo The Wizard</h5>
             </section>
-
             <section
               className='projects_excerpt_container'
               id={props.onHoverProject2 ? 'project2Hover' : 'project2'}
@@ -45,8 +45,14 @@ const Projects = (props) => {
               >
               <h5><span id='whichcraftlogo' />WHICHCRAFT</h5>
             </section>
-            <section className='projects_excerpt_container'>
-              <p>Project 4</p>
+            <section
+              className='projects_excerpt_container'
+              id={props.onHoverProject4 ? 'project4Hover' : 'project4'}
+              onClick={() => props.switchProject('project4')}
+              onMouseEnter={() => props.hoverProject('project4')}
+              onMouseLeave={() => props.hoverLeaveProject('project4')}
+              >
+              <h5>Bro-sure</h5>
             </section>
           </div>
         </div>
@@ -54,9 +60,7 @@ const Projects = (props) => {
       break
     case 'project1':
       return (
-        <h1>
-          Project 1 details
-        </h1>
+        <Project1 switchProject={props.switchProject} />
       )
       break
     case 'project2':
