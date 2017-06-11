@@ -60,7 +60,10 @@ const Projects = (props) => {
       break
     case 'project1':
       return (
-        <Project1 switchProject={props.switchProject} />
+        <Project1
+          switchProject={props.switchProject}
+          
+         />
       )
       break
     case 'project2':

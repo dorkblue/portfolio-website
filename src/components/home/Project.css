@@ -1,0 +1,59 @@
+.back_button {
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.content_container_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.project_content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 500px;
+}
+
+.project_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 500px;
+}
+
+.project_image img {
+  object-fit: contain;
+  width: inherit;
+}
+
+.project_description p {
+  color: #EBEAE5;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.project_description span {
+  font-family: 'Kaushan Script', cursive;
+  color: #D7AA24;
+  font-size: 1.5em;
+}
+
+#project_1_title {
+  border-bottom: 3px dashed white;
+  margin-bottom: 20px;
+}
+
+#project_1_title h5 {
+  color: #D7AA24;
+  text-shadow: 3px 3px 3px #1A1423;
+  font-size: 3em;
+  font-family: 'Kaushan Script', cursive;
+  margin: 0;
+}
