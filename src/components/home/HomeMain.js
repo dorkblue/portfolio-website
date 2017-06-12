@@ -152,29 +152,20 @@ class HomeMain extends React.Component {
     }
 
     return (
-      <SectionsContainer className='container' {...options}>
-        <Section className='section'>
-          <Hero title={this.state.title[this.state.currentTitlePosition]} />
-        </Section>
-        <Section className='section'>
-          <Projects
-            currentProject={this.state.currentProject}
-            switchProject={this.switchProject}
-            hoverProject={this.hoverProject}
-            hoverLeaveProject={this.hoverLeaveProject}
-            onHoverProject1={this.state.onHoverProject1}
-            onHoverProject2={this.state.onHoverProject2}
-            onHoverProject3={this.state.onHoverProject3}
-            onHoverProject4={this.state.onHoverProject4}
-          />
-        </Section>
-        <Section className='section'>
-          <Profile />
-        </Section>
-        <Section className='section'>
-            Page 4
-        </Section>
-      </SectionsContainer>
+      <main>
+        <Hero title={this.state.title[this.state.currentTitlePosition]} />
+        <Projects
+          currentProject={this.state.currentProject}
+          switchProject={this.switchProject}
+          hoverProject={this.hoverProject}
+          hoverLeaveProject={this.hoverLeaveProject}
+          onHoverProject1={this.state.onHoverProject1}
+          onHoverProject2={this.state.onHoverProject2}
+          onHoverProject3={this.state.onHoverProject3}
+          onHoverProject4={this.state.onHoverProject4}
+        />
+        <Profile />
+      </main>
     )
   }
 

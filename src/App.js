@@ -53,14 +53,10 @@ class App extends Component {
           <div id='stars'></div>
           <div id='stars2'></div>
           <div id='stars3'></div>
-          <main>
-            <div>
               <Route exact path='/' component={HomeMain} />
               <Route exact path='/works' component={WorksMain} />
               <Route exact path='/about' component={AboutMain} />
               <Route exact path='/contact' component={WorksMain} />
-            </div>
-          </main>
         </div>
       </BrowserRouter>
     )
