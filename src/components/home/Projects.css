@@ -37,6 +37,7 @@ section.projects_excerpt_container {
   display: block;
   background-image: url('./project1.gif');
   background-position: top center;
+  border-radius: 7px;
   filter: blur(1px);
 }
 
@@ -73,6 +74,7 @@ section.projects_excerpt_container {
   background-image: url('./project2.gif');
   background-position: top center;
   background-size: cover;
+  border-radius: 7px;
   filter: blur(1px);
 }
 
@@ -116,6 +118,7 @@ span#awanlogo {
   background-image: url('./project3.gif');
   background-size: cover;
   background-position: top center;
+  border-radius: 7px;
   filter: blur(1px);
 }
 
@@ -159,30 +162,31 @@ span#whichcraftlogo {
   content: '';
   z-index: -1;
   display: block;
-  background-image: url('./project3.gif');
+  background-image: url('./project4.gif');
   background-size: cover;
   background-position: top center;
+  border-radius: 7px;
   filter: blur(1px);
 }
 
 #project4Hover {
-  background-image: url('./project3.gif');
+  background-image: url('./project4.gif');
   background-size: cover;
   background-position: top center;
   cursor: pointer;
 }
 
 #project4 h5 {
-  color: #3F3C39;
-  text-shadow: 3px 3px 3px #EBEAE5;
+  color: #009C95;
+  /*text-shadow: 3px 3px 3px #EBEAE5;*/
   font-size: 2.5em;
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
 
 #project4Hover h5 {
-  color: #3F3C39;
-  text-shadow: 3px 3px 3px #EBEAE5;
+  color: #009C95;
+  /*text-shadow: 3px 3px 3px #EBEAE5;*/
   font-size: 2.5em;
   font-family: 'Lato', sans-serif;
   margin: 0;
