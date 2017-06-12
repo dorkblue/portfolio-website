@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom'
 import './Projects.css'
 
 import Project1 from './Project1'
+import Project2 from './Project2'
+import Project3 from './Project3'
 
 const Projects = (props) => {
   console.log(props)
@@ -62,22 +64,24 @@ const Projects = (props) => {
       return (
         <Project1
           switchProject={props.switchProject}
-          
+
          />
       )
       break
     case 'project2':
       return (
-        <h1>
-          Project 2 details
-        </h1>
+        <Project2
+          switchProject={props.switchProject}
+
+         />
       )
       break
     case 'project3':
       return (
-        <h1>
-          Project 3 details
-        </h1>
+        <Project3
+          switchProject={props.switchProject}
+
+         />
       )
       break
     case 'project4':

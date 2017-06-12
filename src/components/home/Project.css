@@ -21,6 +21,17 @@
   width: 500px;
 }
 
+.project_content_container p {
+  color: #EBEAE5;
+  font-size: 1.2em;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.project_content_container section {
+  margin-bottom: 20px;
+}
+
 .project_image {
   display: flex;
   flex-direction: column;
@@ -31,23 +42,19 @@
 .project_image img {
   object-fit: contain;
   width: inherit;
-}
-
-.project_description p {
-  color: #EBEAE5;
-  font-size: 1.2em;
-  text-align: justify;
+  border-radius: 7px;
 }
 
 .project_description span {
   font-family: 'Kaushan Script', cursive;
   color: #D7AA24;
   font-size: 1.5em;
+  font-weight: lighter;
 }
 
-#project_1_title {
+.project_title {
   border-bottom: 3px dashed white;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #project_1_title h5 {
@@ -56,4 +63,68 @@
   font-size: 3em;
   font-family: 'Kaushan Script', cursive;
   margin: 0;
+}
+
+#project_2_title h5 {
+  color: #2E6DA4;
+  /*text-shadow: 3px 3px 3px #1A1423;*/
+  font-size: 2.5em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#project_2_title span {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('http://i.imgur.com/H94aR3F.png?1');
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  filter: invert();
+}
+
+#project_3_title h5 {
+  color: #3F3C39;
+  text-shadow: 1px 1px 1px #EBEAE5;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*filter: invert();*/
+}
+
+#project_3_title span {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('http://i.imgur.com/DW14SO1.png');
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  filter: invert();
+
+
+
+
+  /*display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('http://i.imgur.com/H94aR3F.png?1');
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  filter: invert();*/
+}
+
+.link_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.link_container a {
+  font-size: 1.2em;
 }
