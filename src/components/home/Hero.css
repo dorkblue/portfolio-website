@@ -25,7 +25,7 @@ div.hero h2 mark {
 
 @media screen and (orientation:portrait) {
   div.hero h2 span {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   div.hero h2 mark {
