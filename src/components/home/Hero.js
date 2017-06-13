@@ -5,7 +5,7 @@ const Blurb2 = (props) => {
   return (
     <div className='content_container'>
       <div className='hero'>
-        <h2><mark>Shue Ze</mark> is a<br /><br /><br /><span>FULL STACK<br /><br />WEB DEVELOPER</span></h2>
+        <h2><mark>Shue Ze</mark> is a<br /><span>FULL STACK<br />WEB DEVELOPER</span></h2>
       </div>
     </div>
   )

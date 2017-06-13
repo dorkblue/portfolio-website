@@ -1,5 +1,6 @@
 import React from 'react'
 import {SectionsContainer, Section} from 'react-fullpage'
+import {Divider} from 'semantic-ui-react'
 
 // import css file
 import './HomeMain.css'
@@ -154,6 +155,7 @@ class HomeMain extends React.Component {
     return (
       <main>
         <Hero title={this.state.title[this.state.currentTitlePosition]} />
+        <Divider className='divider' />
         <Projects
           currentProject={this.state.currentProject}
           switchProject={this.switchProject}
@@ -164,7 +166,9 @@ class HomeMain extends React.Component {
           onHoverProject3={this.state.onHoverProject3}
           onHoverProject4={this.state.onHoverProject4}
         />
+        <Divider className='divider' />
         <Profile />
+        <Divider className='divider' />
       </main>
     )
   }

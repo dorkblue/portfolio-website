@@ -16,6 +16,7 @@ div.hero h2 span {
   /*font-style: italic;*/
   font-weight: bolder;
   font-family: 'Megrim', cursive;
+  line-height: initial;
 }
 
 div.hero h2 mark {

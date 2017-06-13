@@ -1,0 +1,40 @@
+.profile_container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#profile_image {
+  background-image: url('http://i.imgur.com/OASzwEa.jpg?1');
+  background-size: cover;
+  width: 48%;
+  height: 70%;
+  background-position: right;
+  border-radius: 7px;
+}
+
+#profile_description {
+  width: 48%;
+}
+
+#profile_description h2 {
+  color: #EBEAE5;
+  text-align: left;
+}
+
+#profile_description p {
+  color: #EBEAE5;
+  font-size: 1.2em;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+#profile_description section {
+  margin-bottom: 20px;
+}
+
+#profile_description_header {
+  border-bottom: 3px dashed white;
+  padding-bottom: 20px;
+}

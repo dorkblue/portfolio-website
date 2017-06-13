@@ -27,7 +27,7 @@ div.content_container2 {
 
 div.content_header {
   width: 20%;
-  border-right: 3px dashed white;
+  /*border-right: 3px dashed white;*/
   padding-right: 25px;
 }
 
@@ -60,30 +60,29 @@ div.content_content {
   display: flex;
 }
 
-.whale {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #EBEAE5;
-}
+@media screen and (orientation:portrait) {
+  div.content_container2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90vw;
+    margin: 0 auto;
+    /*border-top: 2px ridge white;
+    border-bottom: 2px ridge white;*/
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    padding: 0 0 0 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
 
-.whale span {
-  background-image: url('./whale.png');
-  filter: invert();
-  display: inline-block;
-  height: 4em;
-  width: 12em;
-  background-size: contain;
-}
+  div.content_header {
+    width: 100%;
+    /*border-right: 3px dashed white;*/
+    padding-right: 0;
+  }
 
-.profile_container {
-  flex-direction: column;
-
-}
-
-#profile_image {
-  background-image: url('https://scontent.fsin1-1.fna.fbcdn.net/v/t31.0-8/16903575_10154496208117737_2843325479146494168_o.jpg?oh=aefbdc7e359e18ad388750c403a7553a&oe=599D5D31');
-  background-size: cover;
-  width: 100%;
-  height: 30%;
+  div.content_content {
+    width: 100%;
+    display: flex;
+  }
 }
