@@ -10,6 +10,7 @@ import './Hero.css'
 import Hero from './Hero'
 import Projects from './Projects'
 import Profile from './Profile'
+import Blurb from './Blurb'
 
 class HomeMain extends React.Component {
   constructor (props) {

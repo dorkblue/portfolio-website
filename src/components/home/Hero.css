@@ -1,5 +1,5 @@
 div.hero {
-  /*margin: 0 auto;*/
+  height: 100vh;
 }
 
 div.hero h2 {
@@ -23,4 +23,12 @@ div.hero h2 mark {
   font-size: 2em;
 }
 
-/**/
+@media screen and (orientation:portrait) {
+  div.hero h2 span {
+    font-size: 2em;
+  }
+
+  div.hero h2 mark {
+    font-size: 1.5em;
+  }
+}

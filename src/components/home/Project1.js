@@ -1,6 +1,5 @@
 import React from 'react'
-import {Icon, Popup} from 'semantic-ui-react'
-import {Link} from 'react-router-dom'
+import {Icon} from 'semantic-ui-react'
 
 import './Project.css'
 
@@ -8,21 +7,7 @@ const Project1 = (props) => {
   return (
     <div className='content_container'>
       <div className='back_button'>
-        <Popup
-          basic
-          inverted
-          trigger={
-            <Icon onClick={() => props.switchProject('all')} style={{color: '#EBEAE5'}} name='backward' size='big' />
-          }
-          content='back to works'
-          position='right center'
-          style={{
-            backgroundColor: 'rgba(0, 0, 0, 0)',
-            fontFamily: 'Rationale, sans-serif',
-            fontSize: '2em',
-            color: '#EBEAE5'
-          }}
-        />
+        <a onClick={() => props.switchProject('all')} ><Icon linkstyle={{color: '#EBEAE5'}} name='backward' size='large' />All Works</a>
       </div>
       <div className='content_container_right'>
         <div className='project_image'>
@@ -59,7 +44,6 @@ const Project1 = (props) => {
           </section>
         </div>
       </div>
-
     </div>
   )
 }

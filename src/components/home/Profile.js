@@ -6,7 +6,7 @@ import './Profile.css'
 
 const Profile = (props) => {
   return (
-    <div className='content_container2'>
+    <div className='content_container3'>
       <div className='content_header'>
         <h2>PROFILE</h2>
         <div className='content_subheader'>
@@ -14,9 +14,7 @@ const Profile = (props) => {
         </div>
       </div>
       <div className='content_content profile_container'>
-        <div id='profile_image'>
-
-        </div>
+        <div id='profile_image' />
         <div id='profile_description'>
           <section id='profile_description_header'>
             <h2>

@@ -7,7 +7,7 @@ const Blurb = (props) => {
       <div className='content_header'>
         <h2><mark>Shue Ze</mark> is a<br /><span>FULL STACK<br />WEB DEVELOPER</span></h2>
         <h2></h2>
-        <Link to='/about'>more about me</Link>
+        {/* <Link to='/about'>more about me</Link> */}
       </div>
       <div className='content_content'>
         <section className='section_top'>
@@ -16,7 +16,7 @@ const Blurb = (props) => {
           </div>
           <div className='devicons-container-top'>
             <div className='devicons-container'>
-              <i style={{color: '#F0DB4F'}} className='devicon-javascript-plain colored devicon' />
+              <i className='devicon-javascript-plain colored' />
               <i style={{color: '#E54D26'}} className='devicon-html5-plain colored devicon' />
               <i style={{color: '#3D8FC6'}} className='devicon-css3-plain colored devicon' />
               <i style={{color: '#5A8356'}} className='devicon-nodejs-plain colored devicon' />
