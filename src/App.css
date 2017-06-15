@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Economica|El+Messiri|Federo|Rationale|Strait|Rajdhani|Megrim');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Economica|El+Messiri|Federo|Rationale|Strait|Open+Sans|Megrim|Kaushan+Script|Lato:900|Raleway|VT323');
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|');
 
 * {
   box-sizing: border-box;
@@ -13,4 +15,8 @@ div.App {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
   text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }

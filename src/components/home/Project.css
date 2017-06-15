@@ -83,7 +83,7 @@
 #project_2_title span {
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url('http://i.imgur.com/H94aR3F.png?1');
+  background-image: url('https://i.imgur.com/H94aR3F.png?1');
   height: 40px;
   width: 40px;
   background-size: contain;
@@ -94,7 +94,7 @@
   color: #3F3C39;
   text-shadow: 1px 1px 1px #EBEAE5;
   font-size: 2.5em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   display: flex;
   justify-content: flex-start;
@@ -105,7 +105,7 @@
 #project_3_title span {
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url('http://i.imgur.com/DW14SO1.png');
+  background-image: url('https://i.imgur.com/DW14SO1.png');
   background-size: contain;
   height: 50px;
   width: 50px;
@@ -115,7 +115,7 @@
 #project_4_title h5 {
   color: #009C95;
   font-size: 2.5em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   display: flex;
   justify-content: flex-start;

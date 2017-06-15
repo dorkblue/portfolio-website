@@ -52,13 +52,8 @@ class App extends Component {
         <footer>
           <section>
             <p>
-              Build with React <i className='devicon-react-original-wordmark' />
+              <Icon name='copyright' />Shue Ze. Build with React
             </p>
-          </section>
-          <section>
-            <p>
-              <Icon name='copyright' /> Lee Shue Ze
-              </p>
           </section>
         </footer>
       </div>

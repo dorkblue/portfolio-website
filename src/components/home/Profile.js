@@ -10,7 +10,7 @@ const Profile = (props) => {
       <div className='content_header'>
         <h2>PROFILE</h2>
         <div className='content_subheader'>
-          <h4>get to know me&nbsp;</h4>
+          <h4>GET TO KNOW ME&nbsp;</h4>
         </div>
       </div>
       <div className='content_content profile_container'>
@@ -18,7 +18,7 @@ const Profile = (props) => {
         <div id='profile_description'>
           <section id='profile_description_header'>
             <h2>
-              Hi there! Shue Ze here.
+              &nbsp;Hello!
             </h2>
           </section>
           <section>
@@ -43,9 +43,10 @@ const Profile = (props) => {
               Hit me up for a conversation! I don't bite.
             </p>
             <section className='link_container'>
-              <a href='mailto:shueze@gmail.com'><Icon name='mail outline' size='large' /></a>
-              <a href='https://www.linkedin.com/in/shueze/'><Icon name='linkedin' size='large' /></a>
-              <a href='https://github.com/dorkblue'><Icon name='github' size='large' /></a>
+              <a target='_blank' rel='noopener noreferrer' href='mailto:shueze@gmail.com'><Icon name='mail outline' size='large' /></a>
+              <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/shueze/'><Icon name='linkedin' size='large' /></a>
+              <a target='_blank' rel='noopener noreferrer' href='https://github.com/dorkblue'><Icon name='github' size='large' /></a>
+              <a target='_blank' rel='noopener noreferrer' href='https://drive.google.com/open?id=0B-UC8lMmX4g-TVRUWXdTZmxkcVU'><Icon name='file text outline' size='large' /></a>
             </section>
           </div>
         </div>

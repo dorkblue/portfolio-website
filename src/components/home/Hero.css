@@ -7,7 +7,7 @@ div.hero h2 {
   text-align: left;
   color: #EBEAE5;
   /*text-transform: uppercase;*/
-  font-family: 'Rationale', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
 }
 
@@ -20,7 +20,9 @@ div.hero h2 span {
 }
 
 div.hero h2 mark {
-  font-size: 2em;
+  font-size: 2.5em;
+  font-family: 'VT323', monospace;
+  letter-spacing: 15px;
 }
 
 @media screen and (orientation:portrait) {

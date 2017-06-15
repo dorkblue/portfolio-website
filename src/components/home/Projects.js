@@ -15,9 +15,9 @@ const Projects = (props) => {
       return (
         <div className='content_container2'>
           <div className='content_header'>
-            <h2>WORKS</h2>
+            <h2>PROJECTS</h2>
             <div className='content_subheader'>
-              <h4>that I'm proud of&nbsp;</h4>
+              <h4>THAT I'M PROUD OF&nbsp;</h4>
             </div>
           </div>
           <div className='content_content projects_container'>

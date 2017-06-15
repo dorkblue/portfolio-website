@@ -50,7 +50,7 @@ const Project3 = (props) => {
               <Icon style={{color: '#EBEAE5'}} name='github' size='large' />
               Github Repo
             </a>{' '}
-            <a href='http://whichcraft.herokuapp.com'>
+            <a href='https://whichcraft.herokuapp.com'>
               <Icon style={{color: '#EBEAE5'}} name='computer' size='large' />
               Application
             </a>
